@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background: #72C5C0;
+}
+/*
+***Layout***
+*/
+#area-cabecalho {
+    background-color: #f7b600;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 1rem;
+}
+
+#area-principal {
+    width: 1024px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 1.5rem;   
+}
+
+/*Início animação ícone*/
+.icone {
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+}
+
+@keyframes animacao-icone {
+    to {
+        transform: translateY(-1rem);
+    }
+    from {
+        transform: translateY(1rem);
+    }
+}
+/* final animação ícone*/
+
+#area-servicos {
+    width: 1024px;
+    height: 700px;
+    top: 1rem;
+    margin: auto;
+    padding: .01rem;
+}
+
+#area-fotografias {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#area-postagens {
+    background: #e6e6e6;
+    width: 1024px;
+    float: left;
+    text-align: center;
+}
+
+#servicos-postagens {
+    background: #f7b600;
+    width: 1024px;
+    float: left;
+    text-align: center;   
+}
+
+.web {
+    width: 150px;
+    height: 150px;   
+}
+
+.filme {
+    width: 150px;
+    height: 150px;   
+}
+
+.cards {
+    position: relative;
+    right: 10px;
+    margin: .5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fotos {
+    display: block;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+    width: 1024px;
+    height: 650px;
+    padding: .01rem;
+}
+
+#fotografias-postadas {
+    background: #e6e6e6; 
+    width: 1024px;
+    float: left;
+    text-align: center
+}
+
+.postados {
+    padding: .5rem;
+}
+
+.postagem {
+    padding: 10px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+    background: #CCCCCC;
+    background: #f7b600;
+}
+
+/*Início da formatação geral dos links*/
+a {
+    text-decoration: none;
+    padding: .5rem;
+}
+
+a:link, a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #000000;
+    padding: 0.8rem 1.2rem;
+}
+
+#area-cabecalho a:hover {
+      background: #FFFFFF;
+}
+/*Término da formatação dos links*/
+
+h1 {
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.0rem;
+    text-align: justify;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
